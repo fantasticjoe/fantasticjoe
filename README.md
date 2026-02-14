@@ -15,21 +15,24 @@ I'm **JoeZhu**, an undergraduate majoring in **Bioinformatics** at the ZJU-UoE I
 
 ### 📊 GitHub Metrics
 
-<picture>
-  <img src="/metrics-header.svg" alt="Metrics" width="100%">
-</picture>
-
-<picture>
-  <img src="/metrics-isocalendar.svg" alt="Isometric Calendar" width="100%">
-</picture>
-
-<picture>
-  <img src="/metrics-languages.svg" alt="Languages" width="100%">
-</picture>
-
-<picture>
-  <img src="/metrics-achievements.svg" alt="Achievements" width="100%">
-</picture>
+<table>
+  <tr>
+    <td width="50%">
+      <img src="/metrics-header.svg" alt="Metrics" width="100%">
+    </td>
+    <td width="50%">
+      <img src="/metrics-languages.svg" alt="Languages" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="/metrics-isocalendar.svg" alt="Isometric Calendar" width="100%">
+    </td>
+    <td width="50%">
+      <img src="/metrics-achievements.svg" alt="Achievements" width="100%">
+    </td>
+  </tr>
+</table>
 
 ---
 
