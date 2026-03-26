@@ -25,13 +25,19 @@ I'm **JoeZhu**, an undergraduate majoring in **Bioinformatics** at the ZJU-UoE I
     </td>
   </tr>
   <tr>
-    <td colspan="2">
+    <td width="50%">
       <img src="/metrics-isocalendar.svg" alt="Isometric Calendar" width="100%">
+    </td>
+    <td width="50%">
+      <img src="/metrics-followup.svg" alt="Follow-up" width="100%">
     </td>
   </tr>
   <tr>
-    <td colspan="2">
-      <img src="/metrics-achievements.svg" alt="Achievements" width="100%">
+    <td width="50%">
+      <img src="/metrics-topics.svg" alt="Topics" width="100%">
+    </td>
+    <td width="50%">
+      <img src="/metrics-repositories.svg" alt="Repositories" width="100%">
     </td>
   </tr>
 </table>
