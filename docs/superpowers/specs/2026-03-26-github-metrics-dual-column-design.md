@@ -70,8 +70,19 @@ Each new job should:
 Recommended plugin intent:
 
 - `followup`: show issue and pull request follow-up activity
-- `topics`: show starred or active topic interests
-- `repositories`: show featured repositories rather than duplicating broad stats
+- `topics`: show starred topics in `labels` mode so the card reads clearly in a README grid
+- `repositories`: show pinned repositories instead of generic featured repositories so the card reflects the profile's curated public work
+
+Recommended plugin choices:
+
+- `topics`
+  - `plugin_topics: yes`
+  - `plugin_topics_mode: labels`
+  - `plugin_topics_limit`: keep within the default or a small fixed count if needed for readability
+- `repositories`
+  - `plugin_repositories: yes`
+  - `plugin_repositories_pinned`: use a small pinned count suitable for one card
+  - do not mix pinned, random, and starred repository modes in this change
 
 ## Content Balance
 
@@ -97,7 +108,6 @@ After implementation:
 
 1. Run the Metrics workflow manually
 2. Confirm all six jobs succeed
-3. Confirm new SVG files are committed to `main`
+3. Confirm new SVG files are present in the target branch/repo
 4. Re-read the README table to verify it contains exactly three rows and six images
 5. Inspect generated cards for obvious duplication or empty output
-
