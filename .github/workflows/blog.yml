@@ -16,5 +16,5 @@ jobs:
           feed_list: "https://blog.fantasticjoe.com/atom.xml"
           max_post_count: 5
           date_format: "mmm d, yyyy"
-          template: "- [$title]($url) · <sub>$date</sub>$newline"
+          template: "$newline- [$title]($url) · <sub>$date</sub>"
           commit_message: "chore: update latest blog posts"
