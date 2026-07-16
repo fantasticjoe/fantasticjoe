@@ -1,0 +1,20 @@
+name: Latest blog posts
+on:
+  # Refresh daily
+  schedule: [{cron: "0 1 * * *"}]
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://blog.fantasticjoe.com/atom.xml"
+          max_post_count: 5
+          date_format: "mmm d, yyyy"
+          template: "- [$title]($url) · <sub>$date</sub>$newline"
+          commit_message: "chore: update latest blog posts"

@@ -1,0 +1,29 @@
+name: Snake
+on:
+  # Regenerate daily, after the contribution graph updates
+  schedule: [{cron: "30 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # House palette green ramps (empty -> most contributions)
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: fantasticjoe
+          outputs: |
+            dist/snake-light.svg?color_snake=#4F6D5F&color_dots=#E7E3D5,#C8D6CC,#9DBBA8,#6F927E,#4F6D5F
+            dist/snake-dark.svg?color_snake=#648679&color_dots=#2A2A2A,#3B5245,#4C6B59,#587D69,#648679
+
+      # Publish generated SVGs to the "output" branch,
+      # referenced from README via raw.githubusercontent.com
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
