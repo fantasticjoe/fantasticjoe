@@ -3,7 +3,11 @@
         <style/>
     </defs>
     <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,.field.language.details small{display:flex;justify-content:space-between}.field.language.details small{color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
-    <style/>
+    <style>h2, h3 { color: #4F6D5F !important; }
+svg { color: #212C33 !important; }
+.field svg { fill: #6F927E !important; }
+.bar, .language svg { filter: saturate(0.45) !important; }
+[fill="#959da5"] { fill: #8A9199 !important; }</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
@@ -21,14 +25,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="171.4703290066913" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="171.4703290066913" y="0" width="153.45574273302725" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="324.9260717397185" y="0" width="49.47357173567554" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="374.39964347539404" y="0" width="15.734062492996921" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="390.133705968391" y="0" width="14.0501583360152" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="404.1838643044062" y="0" width="12.249353290887067" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="416.43321759529323" y="0" width="10.40614510542219" height="8" fill="#F05138"/>
-                    <rect mask="url(#languages-bar)" x="426.8393627007154" y="0" width="33.160637299284524" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="171.4085523530761" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="171.4085523530761" y="0" width="153.4004563034799" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="324.80900865655605" y="0" width="49.455747592443714" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="374.26475624899973" y="0" width="15.728393887039136" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="389.9931501360389" y="0" width="14.045096400403416" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="404.0382465364423" y="0" width="12.244940142212045" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="416.2831866786543" y="0" width="10.568123005635318" height="8" fill="#F05138"/>
+                    <rect mask="url(#languages-bar)" x="426.8513096842896" y="0" width="33.14869031571037" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -41,7 +45,7 @@
                             </div>
                             <small>
                                 <div>3.23 MB</div>
-                                <div>37.28%</div>
+                                <div>37.26%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -53,7 +57,7 @@
                             </div>
                             <small>
                                 <div>931 kB</div>
-                                <div>10.76%</div>
+                                <div>10.75%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -76,8 +80,8 @@
                                 Swift
                             </div>
                             <small>
-                                <div>195 kB</div>
-                                <div>2.26%</div>
+                                <div>198 kB</div>
+                                <div>2.3%</div>
                             </small>
                         </div>
                     </section>
@@ -91,7 +95,7 @@
                             </div>
                             <small>
                                 <div>2.89 MB</div>
-                                <div>33.36%</div>
+                                <div>33.35%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -136,15 +140,4 @@
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
-<style>
-h2, h3 { color: #4F6D5F !important; }
-svg { color: #212C33 !important; }
-.field svg { fill: #6F927E !important; }
-.bar, .language svg { filter: saturate(0.45) !important; }
-[fill="#ebedf0"] { fill: #E7E3D5 !important; }
-[fill="#9be9a8"] { fill: #C8D6CC !important; }
-[fill="#40c463"] { fill: #9DBBA8 !important; }
-[fill="#30a14e"] { fill: #6F927E !important; }
-[fill="#216e39"] { fill: #4F6D5F !important; }
-[fill="#959da5"] { fill: #8A9199 !important; }
-</style></svg>
+</svg>
