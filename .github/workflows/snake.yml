@@ -5,6 +5,10 @@ on:
   workflow_dispatch:
   push: {branches: ["main"]}
 
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
 jobs:
   snake:
     runs-on: ubuntu-latest

@@ -7,6 +7,12 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 
+# Serialize runs: concurrent runs race on committing the same SVGs
+# (stale file SHA -> "does not match" commit errors)
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
 # House palette (shared with fantasticjoe.com):
 #   light: bg #F8F5EC · ink #212C33 · accent #4F6D5F · border #DADCD6
 #   dark:  bg #1C1C1C · ink #E6DED0 · accent #648679 · border #333333

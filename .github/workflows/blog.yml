@@ -4,6 +4,10 @@ on:
   schedule: [{cron: "0 1 * * *"}]
   workflow_dispatch:
 
+concurrency:
+  group: blog
+  cancel-in-progress: true
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
