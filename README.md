@@ -18,8 +18,7 @@ I stay curious about novel things, keep a real passion for life, and carry a cam
 
 <sub>来自博客的最新文字，每日自动更新 · Latest posts, refreshed daily</sub>
 
-<!-- BLOG-POST-LIST:START -->
-- [Bingline API：每天一行新的风景](https://blog.fantasticjoe.com/46894891.html) · <sub>May 26, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [Bingline API：每天一行新的风景](https://blog.fantasticjoe.com/46894891.html) · <sub>May 26, 2026</sub>
 - [0a.ink：给每个想法一个新行](https://blog.fantasticjoe.com/b3e16d1f.html) · <sub>May 25, 2026</sub>
 - [SciPalette：为科研图表准备的配色工作台](https://blog.fantasticjoe.com/9d4f0b28.html) · <sub>May 25, 2026</sub>
 - [Hortus：一次博客风格迁移](https://blog.fantasticjoe.com/75d3a91c.html) · <sub>May 25, 2026</sub>
