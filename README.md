@@ -34,11 +34,11 @@ I stay curious about novel things, keep a real passion for life, and carry a cam
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="metrics-languages-dark.svg">
-    <img src="metrics-languages-light.svg" alt="Most used languages" width="49%" align="top">
+    <img src="metrics-languages-light.svg" alt="Most used languages" width="52%" align="top">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=fantasticjoe&background=1C1C1C&border=333333&stroke=333333&ring=648679&fire=648679&currStreakNum=E6DED0&sideNums=E6DED0&currStreakLabel=648679&sideLabels=648679&dates=8F8A7E&border_radius=18&disable_animations=true">
-    <img src="https://streak-stats.demolab.com?user=fantasticjoe&background=F8F5EC&border=DADCD6&stroke=DADCD6&ring=4F6D5F&fire=4F6D5F&currStreakNum=212C33&sideNums=212C33&currStreakLabel=4F6D5F&sideLabels=4F6D5F&dates=8A9199&border_radius=18&disable_animations=true" alt="Contribution streak" width="49%" align="top">
+    <img src="https://streak-stats.demolab.com?user=fantasticjoe&background=F8F5EC&border=DADCD6&stroke=DADCD6&ring=4F6D5F&fire=4F6D5F&currStreakNum=212C33&sideNums=212C33&currStreakLabel=4F6D5F&sideLabels=4F6D5F&dates=8A9199&border_radius=18&disable_animations=true" alt="Contribution streak" width="46%" align="top">
   </picture>
 </div>
 
