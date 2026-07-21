@@ -18,64 +18,6 @@ concurrency:
 #   dark:  bg #1C1C1C · ink #E6DED0 · accent #648679 · border #333333
 jobs:
   # ======================
-  # Isometric calendar (light / dark)
-  # 3D commit calendar restyled via extras_css
-  # ======================
-  isocalendar-light:
-    runs-on: ubuntu-latest
-    environment:
-      name: production
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics-isocalendar-light.svg
-          config_timezone: Asia/Shanghai
-          config_animations: no
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          extras_css: |
-            h2, h3 { color: #4F6D5F !important; }
-            svg { color: #212C33 !important; }
-            .field svg { fill: #6F927E !important; }
-            [fill="#ebedf0"] { fill: #E7E3D5 !important; }
-            [fill="#9be9a8"] { fill: #C8D6CC !important; }
-            [fill="#40c463"] { fill: #9DBBA8 !important; }
-            [fill="#30a14e"] { fill: #6F927E !important; }
-            [fill="#216e39"] { fill: #4F6D5F !important; }
-            [fill="#959da5"] { fill: #8A9199 !important; }
-
-  isocalendar-dark:
-    runs-on: ubuntu-latest
-    environment:
-      name: production
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics-isocalendar-dark.svg
-          config_timezone: Asia/Shanghai
-          config_animations: no
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          extras_css: |
-            h2, h3 { color: #648679 !important; }
-            svg { color: #E6DED0 !important; }
-            .field svg { fill: #648679 !important; }
-            [fill="#ebedf0"] { fill: #2A2A2A !important; }
-            [fill="#9be9a8"] { fill: #3B5245 !important; }
-            [fill="#40c463"] { fill: #4C6B59 !important; }
-            [fill="#30a14e"] { fill: #587D69 !important; }
-            [fill="#216e39"] { fill: #648679 !important; }
-            [fill="#959da5"] { fill: rgba(230,222,208,0.5) !important; }
-
-  # ======================
   # Languages (light / dark)
   # Most-used languages, bar and dots desaturated to sit
   # quietly inside the warm palette

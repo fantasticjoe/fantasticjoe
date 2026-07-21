@@ -3,10 +3,99 @@
     .serif { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif; }
     .serif-sc { font-family: 'Noto Serif SC', 'Songti SC', 'SimSun', serif; }
     .sans { font-family: 'Source Sans 3', -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    /* Twinkle: base opacity lives on the element attribute, animation only modulates.
+       If animations never run, every star stays visible. */
+    .tw1 { animation: tw 4.2s ease-in-out infinite; }
+    .tw2 { animation: tw 5.6s ease-in-out 1.3s infinite; }
+    .tw3 { animation: tw 6.8s ease-in-out 2.6s infinite; }
+    @keyframes tw {
+      0%, 100% { opacity: 0.30; }
+      50% { opacity: 0.85; }
+    }
+    /* Shooting star: decorative only, invisible at rest */
+    .shoot { opacity: 0; animation: shoot 13s linear 4s infinite; }
+    @keyframes shoot {
+      0%       { opacity: 0; transform: translate(985px, 26px); }
+      1.5%     { opacity: 0.9; }
+      7%       { opacity: 0; transform: translate(700px, 96px); }
+      100%     { opacity: 0; transform: translate(700px, 96px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .tw1, .tw2, .tw3 { animation: none; }
+      .shoot { animation: none; opacity: 0; }
+    }
   </style>
+
+  <defs>
+    <clipPath id="mat"><rect x="15" y="15" width="970" height="250" rx="14"/></clipPath>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="16"/></filter>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F6D5F" stop-opacity="0"/>
+      <stop offset="1" stop-color="#4F6D5F" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
 
   <!-- canvas -->
   <rect x="0.5" y="0.5" width="999" height="279" rx="20" fill="#F8F5EC" stroke="#DADCD6"/>
+
+  <!-- night-sky layer (engraved star-chart mood), clipped to the mat -->
+  <g clip-path="url(#mat)">
+    <!-- milky way band -->
+    <ellipse cx="730" cy="78" rx="330" ry="42" fill="rgba(122,158,141,0.16)" filter="url(#glow)" transform="rotate(-12 730 78)"/>
+    <ellipse cx="640" cy="120" rx="240" ry="26" fill="rgba(122,158,141,0.10)" filter="url(#glow)" transform="rotate(-12 640 120)"/>
+
+    <!-- scattered stars -->
+    <g fill="#4F6D5F">
+      <circle class="tw1" cx="392" cy="44" r="1.1" opacity="0.30"/>
+      <circle cx="448" cy="60" r="0.9" opacity="0.24"/>
+      <circle class="tw3" cx="516" cy="38" r="1.3" opacity="0.34"/>
+      <circle cx="584" cy="52" r="0.8" opacity="0.22"/>
+      <circle class="tw2" cx="660" cy="40" r="1.2" opacity="0.32"/>
+      <circle cx="724" cy="58" r="0.9" opacity="0.26"/>
+      <circle class="tw1" cx="796" cy="36" r="1.4" opacity="0.36"/>
+      <circle cx="852" cy="62" r="0.9" opacity="0.24"/>
+      <circle class="tw2" cx="948" cy="52" r="1.1" opacity="0.30"/>
+      <circle cx="700" cy="92" r="0.8" opacity="0.22"/>
+      <circle class="tw3" cx="768" cy="82" r="1.1" opacity="0.30"/>
+      <circle cx="836" cy="90" r="0.9" opacity="0.24"/>
+      <circle class="tw1" cx="878" cy="126" r="1.2" opacity="0.32"/>
+      <circle cx="846" cy="196" r="0.9" opacity="0.24"/>
+      <circle class="tw2" cx="892" cy="228" r="1.0" opacity="0.28"/>
+      <circle cx="964" cy="120" r="0.9" opacity="0.24"/>
+      <circle class="tw3" cx="956" cy="196" r="1.2" opacity="0.30"/>
+      <circle cx="662" cy="196" r="0.8" opacity="0.20"/>
+      <circle class="tw1" cx="716" cy="220" r="1.0" opacity="0.26"/>
+      <circle cx="782" cy="206" r="0.8" opacity="0.22"/>
+    </g>
+    <g fill="#212C33">
+      <circle cx="424" cy="34" r="0.8" opacity="0.18"/>
+      <circle class="tw2" cx="552" cy="64" r="1.0" opacity="0.24"/>
+      <circle cx="628" cy="66" r="0.8" opacity="0.18"/>
+      <circle class="tw3" cx="906" cy="84" r="1.0" opacity="0.24"/>
+      <circle cx="932" cy="160" r="0.8" opacity="0.18"/>
+      <circle class="tw1" cx="614" cy="228" r="0.9" opacity="0.20"/>
+    </g>
+
+    <!-- Big Dipper · 北斗七星 -->
+    <g stroke="#4F6D5F" stroke-width="0.7" opacity="0.85">
+      <path d="M600 150 L646 132 L692 122 L734 118 L742 158 L806 164 L802 114 L734 118" fill="none" stroke-opacity="0.30"/>
+    </g>
+    <g fill="#4F6D5F">
+      <circle class="tw2" cx="600" cy="150" r="1.9" opacity="0.46"/>
+      <circle class="tw3" cx="646" cy="132" r="1.7" opacity="0.42"/>
+      <circle class="tw1" cx="692" cy="122" r="1.8" opacity="0.44"/>
+      <circle class="tw2" cx="734" cy="118" r="1.7" opacity="0.42"/>
+      <circle class="tw3" cx="742" cy="158" r="1.8" opacity="0.44"/>
+      <circle class="tw1" cx="806" cy="164" r="2.0" opacity="0.48"/>
+      <circle class="tw2" cx="802" cy="114" r="1.9" opacity="0.46"/>
+    </g>
+
+    <!-- shooting star (decorative; hidden at rest) -->
+    <g class="shoot">
+      <line x1="0" y1="0" x2="46" y2="11" stroke="url(#tail)" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+  </g>
+
   <!-- gallery mat frame -->
   <rect x="14.5" y="14.5" width="971" height="251" rx="14" fill="none" stroke="#DADCD6"/>
 

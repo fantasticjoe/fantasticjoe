@@ -14,6 +14,27 @@ I stay curious about novel things, keep a real passion for life, and carry a cam
 
 <br>
 
+## Projects
+
+<sub>做过的一些小东西 · Things I've built</sub>
+
+<p>
+  <a href="https://blog.fantasticjoe.com/46894891.html"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/bingline-dark.svg">
+    <img src="assets/projects/bingline-light.svg" alt="Bingline API — 每天一行新的风景" width="32.5%">
+  </picture></a>
+  <a href="https://blog.fantasticjoe.com/b3e16d1f.html"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/oaink-dark.svg">
+    <img src="assets/projects/oaink-light.svg" alt="0a.ink — 给每个想法一个新行" width="32.5%">
+  </picture></a>
+  <a href="https://blog.fantasticjoe.com/9d4f0b28.html"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/scipalette-dark.svg">
+    <img src="assets/projects/scipalette-light.svg" alt="SciPalette — 为科研图表准备的配色工作台" width="32.5%">
+  </picture></a>
+</p>
+
+<br>
+
 ## Writing
 
 <sub>来自博客的最新文字，每日自动更新 · Latest posts, refreshed daily</sub>
@@ -42,10 +63,7 @@ I stay curious about novel things, keep a real passion for life, and carry a cam
   </picture>
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="metrics-isocalendar-dark.svg">
-  <img src="metrics-isocalendar-light.svg" alt="Isometric contribution calendar" width="100%">
-</picture>
+<img src="profile-3d-contrib/profile-3d.svg" alt="3D contribution calendar — a city of commits" width="100%">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fantasticjoe/fantasticjoe/output/snake-dark.svg">

@@ -1,0 +1,14 @@
+<svg width="340" height="120" viewBox="0 0 340 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bingline API — 每天一行新的风景">
+  <style>
+    .serif { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif; }
+    .sans { font-family: 'Source Sans 3', -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .sans-sc { font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+  </style>
+  <rect x="0.5" y="0.5" width="339" height="119" rx="18" fill="#1C1C1C" stroke="#333333"/>
+  <text x="26" y="47" class="serif" font-size="23" font-weight="600" fill="#E6DED0">Bingline API</text>
+  <text x="26" y="75" class="sans-sc" font-size="13" fill="rgba(230,222,208,0.62)">每天一行新的风景</text>
+  <circle cx="30" cy="97" r="3" fill="rgba(100,134,121,0.40)"/>
+  <circle cx="30" cy="97" r="1.6" fill="#648679"/>
+  <text x="42" y="101" class="sans" font-size="10.5" letter-spacing="2" fill="rgba(230,222,208,0.62)">API</text>
+  <path d="M300 36 h14 v14 M314 36 L298 52" stroke="#648679" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
