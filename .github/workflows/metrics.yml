@@ -48,6 +48,12 @@ jobs:
             .field svg { fill: #8EDFE8 !important; }
             .field.language.details small { color: #A6ACCD !important; }
             [fill="#959da5"] { fill: #A6ACCD !important; }
+            /* Give language names and numeric details their own space. */
+            .field.language.details { gap: 8px; }
+            .field.language.details > .field { flex: 1 1 auto; min-width: 0; }
+            .field.language.details > small { flex: 0 0 auto; gap: 8px; }
+            .field.language.details small > * { flex: none; }
+            .field.language.details small > :not(:last-child) { margin-right: 0; }
 
   languages-dark:
     runs-on: ubuntu-latest
@@ -77,3 +83,9 @@ jobs:
             .field svg { fill: #8EDFE8 !important; }
             .field.language.details small { color: #A6ACCD !important; }
             [fill="#959da5"] { fill: #A6ACCD !important; }
+            /* Give language names and numeric details their own space. */
+            .field.language.details { gap: 8px; }
+            .field.language.details > .field { flex: 1 1 auto; min-width: 0; }
+            .field.language.details > small { flex: 0 0 auto; gap: 8px; }
+            .field.language.details small > * { flex: none; }
+            .field.language.details small > :not(:last-child) { margin-right: 0; }

@@ -66,7 +66,7 @@ My lunar eclipse sequence was featured in [NASA's Astronomy Picture of the Day](
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="metrics-languages-dark.svg">
-  <img src="metrics-languages-light.svg" width="495" alt="Programming languages across my repositories">
+  <img src="metrics-languages-light.svg" width="100%" alt="Programming languages across my repositories">
 </picture>
 
 <img src="profile-3d-contrib/profile-3d.svg" width="100%" alt="GitHub contributions shown as a 3D calendar">

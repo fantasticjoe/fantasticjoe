@@ -9,7 +9,13 @@ h2, h3 { color: #53D6CA !important; }
 svg { color: #F3F4F6 !important; }
 .field svg { fill: #8EDFE8 !important; }
 .field.language.details small { color: #A6ACCD !important; }
-[fill="#959da5"] { fill: #A6ACCD !important; }</style>
+[fill="#959da5"] { fill: #A6ACCD !important; }
+/* Give language names and numeric details their own space. */
+.field.language.details { gap: 8px; }
+.field.language.details > .field { flex: 1 1 auto; min-width: 0; }
+.field.language.details > small { flex: 0 0 auto; gap: 8px; }
+.field.language.details small > * { flex: none; }
+.field.language.details small > :not(:last-child) { margin-right: 0; }</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
