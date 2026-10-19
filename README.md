@@ -32,15 +32,65 @@
 </details>
 
 <details open>
-<summary><h2>Tools I use</h2></summary>
+<summary><h2>Tools &amp; methods</h2></summary>
 
 <p>
-  <img src="assets/tools/python.svg" width="100" height="30" alt="Python">
+  <b>Programming</b><br>
+  <img src="assets/tools/python.svg" width="76" height="30" alt="Python">
   <img src="assets/tools/typescript.svg" width="100" height="30" alt="TypeScript">
-  <img src="assets/tools/pytorch.svg" width="100" height="30" alt="PyTorch">
-  <img src="assets/tools/numpy.svg" width="100" height="30" alt="NumPy">
-  <img src="assets/tools/git.svg" width="100" height="30" alt="Git">
-  <img src="assets/tools/linux.svg" width="100" height="30" alt="Linux">
+  <img src="assets/tools/java.svg" width="76" height="30" alt="Java">
+  <img src="assets/tools/javascript.svg" width="100" height="30" alt="JavaScript">
+  <img src="assets/tools/swift.svg" width="76" height="30" alt="Swift">
+  <img src="assets/tools/sql.svg" width="76" height="30" alt="SQL">
+  <img src="assets/tools/html-css.svg" width="100" height="30" alt="HTML &amp; CSS">
+</p>
+
+<p>
+  <b>Data &amp; machine learning</b><br>
+  <img src="assets/tools/pytorch.svg" width="84" height="30" alt="PyTorch">
+  <img src="assets/tools/numpy.svg" width="76" height="30" alt="NumPy">
+  <img src="assets/tools/pandas.svg" width="76" height="30" alt="pandas">
+  <img src="assets/tools/scikit-learn.svg" width="116" height="30" alt="scikit-learn">
+  <img src="assets/tools/matplotlib.svg" width="100" height="30" alt="Matplotlib">
+  <img src="assets/tools/jupyter.svg" width="84" height="30" alt="Jupyter">
+</p>
+
+<p>
+  <b>Bioinformatics</b><br>
+  <img src="assets/tools/rna-seq.svg" width="84" height="30" alt="RNA-seq">
+  <img src="assets/tools/single-cell.svg" width="108" height="30" alt="Single-cell">
+  <img src="assets/tools/variant-calling.svg" width="132" height="30" alt="Variant calling">
+  <img src="assets/tools/pathway-enrichment.svg" width="152" height="30" alt="Pathway enrichment">
+  <img src="assets/tools/protein-structure.svg" width="148" height="30" alt="Protein structure">
+</p>
+
+<p>
+  <b>Web</b><br>
+  <img src="assets/tools/astro.svg" width="76" height="30" alt="Astro">
+  <img src="assets/tools/react.svg" width="76" height="30" alt="React">
+  <img src="assets/tools/tailwind.svg" width="116" height="30" alt="Tailwind CSS">
+  <img src="assets/tools/fastapi.svg" width="84" height="30" alt="FastAPI">
+  <img src="assets/tools/cloudflare.svg" width="152" height="30" alt="Cloudflare Workers">
+  <img src="assets/tools/hexo.svg" width="76" height="30" alt="Hexo">
+</p>
+
+<p>
+  <b>Development</b><br>
+  <img src="assets/tools/git.svg" width="76" height="30" alt="Git">
+  <img src="assets/tools/linux.svg" width="76" height="30" alt="Linux">
+  <img src="assets/tools/docker.svg" width="76" height="30" alt="Docker">
+  <img src="assets/tools/sqlite.svg" width="76" height="30" alt="SQLite">
+  <img src="assets/tools/conda.svg" width="76" height="30" alt="Conda">
+  <img src="assets/tools/uv.svg" width="76" height="30" alt="uv">
+  <img src="assets/tools/mise.svg" width="76" height="30" alt="mise">
+  <img src="assets/tools/nodejs.svg" width="84" height="30" alt="Node.js">
+  <img src="assets/tools/github-actions.svg" width="128" height="30" alt="GitHub Actions">
+</p>
+
+<p>
+  <b>Image editing</b><br>
+  <img src="assets/tools/photoshop.svg" width="96" height="30" alt="Photoshop">
+  <img src="assets/tools/lightroom.svg" width="96" height="30" alt="Lightroom">
 </p>
 
 </details>
