@@ -15,6 +15,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       # Generates profile-3d-contrib/profile-3d.svg with the house palette;
       # light & dark are embedded in one SVG (prefers-color-scheme)
       - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
@@ -22,9 +24,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: fantasticjoe
           SETTING_JSON: .github/3d-contrib-settings.json
+      - name: Match profile typography
+        run: python3 .github/scripts/style-contribution-card.py
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile-3d-contrib
-          git commit -m "chore: update 3d contribution calendar" && git push || echo "no changes"
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: update 3d contribution calendar"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
