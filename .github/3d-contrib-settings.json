@@ -1,20 +1,32 @@
 {
   "type": "normal",
   "fileName": "profile-3d.svg",
-  "backgroundColor": "transparent",
-  "foregroundColor": "#212C33",
-  "strongColor": "#4F6D5F",
-  "weakColor": "#8A9199",
-  "radarColor": "#4F6D5F",
+  "backgroundColor": "#1F222E",
+  "foregroundColor": "#F3F4F6",
+  "strongColor": "#8EDFE8",
+  "weakColor": "#A6ACCD",
+  "radarColor": "#53D6CA",
   "growingAnimation": false,
-  "contribColors": ["#E7E3D5", "#C8D6CC", "#9DBBA8", "#6F927E", "#4F6D5F"],
+  "contribColors": [
+    "#2D3345",
+    "#254C55",
+    "#2D7980",
+    "#39A8A5",
+    "#53D6CA"
+  ],
   "darkMode": {
     "type": "normal",
-    "backgroundColor": "transparent",
-    "foregroundColor": "#E6DED0",
-    "strongColor": "#648679",
-    "weakColor": "#8F8A7E",
-    "radarColor": "#648679",
-    "contribColors": ["#2A2A2A", "#3B5245", "#4C6B59", "#587D69", "#648679"]
+    "backgroundColor": "#1F222E",
+    "foregroundColor": "#F3F4F6",
+    "strongColor": "#8EDFE8",
+    "weakColor": "#A6ACCD",
+    "radarColor": "#53D6CA",
+    "contribColors": [
+      "#2D3345",
+      "#254C55",
+      "#2D7980",
+      "#39A8A5",
+      "#53D6CA"
+    ]
   }
 }

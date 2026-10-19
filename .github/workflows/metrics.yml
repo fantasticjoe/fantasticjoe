@@ -13,14 +13,12 @@ concurrency:
   group: metrics
   cancel-in-progress: true
 
-# House palette (shared with fantasticjoe.com):
-#   light: bg #F8F5EC · ink #212C33 · accent #4F6D5F · border #DADCD6
-#   dark:  bg #1C1C1C · ink #E6DED0 · accent #648679 · border #333333
+# Profile card palette: teal #53D6CA, navy #1F222E, ice blue #8EDFE8.
+# Both variants use dark cards for a consistent profile layout.
 jobs:
   # ======================
   # Languages (light / dark)
-  # Most-used languages, bar and dots desaturated to sit
-  # quietly inside the warm palette
+  # Keep GitHub language colors; use the shared palette for the card and labels
   # ======================
   languages-light:
     runs-on: ubuntu-latest
@@ -43,11 +41,13 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           extras_css: |
-            h2, h3 { color: #4F6D5F !important; }
-            svg { color: #212C33 !important; }
-            .field svg { fill: #6F927E !important; }
-            .bar, .language svg { filter: saturate(0.45) !important; }
-            [fill="#959da5"] { fill: #8A9199 !important; }
+            /* Shared profile card palette: teal and ice blue on navy. */
+            :root { background: #1F222E; border-radius: 8px; }
+            h2, h3 { color: #53D6CA !important; }
+            svg { color: #F3F4F6 !important; }
+            .field svg { fill: #8EDFE8 !important; }
+            .field.language.details small { color: #A6ACCD !important; }
+            [fill="#959da5"] { fill: #A6ACCD !important; }
 
   languages-dark:
     runs-on: ubuntu-latest
@@ -70,8 +70,10 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           extras_css: |
-            h2, h3 { color: #648679 !important; }
-            svg { color: #E6DED0 !important; }
-            .field svg { fill: #648679 !important; }
-            .bar, .language svg { filter: saturate(0.40) brightness(0.9) !important; }
-            [fill="#959da5"] { fill: rgba(230,222,208,0.5) !important; }
+            /* Shared profile card palette: teal and ice blue on navy. */
+            :root { background: #1F222E; border-radius: 8px; }
+            h2, h3 { color: #53D6CA !important; }
+            svg { color: #F3F4F6 !important; }
+            .field svg { fill: #8EDFE8 !important; }
+            .field.language.details small { color: #A6ACCD !important; }
+            [fill="#959da5"] { fill: #A6ACCD !important; }
