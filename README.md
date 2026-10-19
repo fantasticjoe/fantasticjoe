@@ -48,14 +48,37 @@
 <details open>
 <summary><h2>Photography</h2></summary>
 
-My lunar eclipse sequence was featured in [NASA's Astronomy Picture of the Day](https://apod.nasa.gov/apod/ap250912.html) on September 12, 2025, alongside Lucy Yunxi Hu's view from Australia.
+My lunar eclipse sequence was featured in [NASA's Astronomy Picture of the Day](https://apod.nasa.gov/apod/ap250912.html) on September 12, 2025. The composite pairs my northern-hemisphere view with Lucy Yunxi Hu's view from Australia.
 
-<p>
-  <img src="assets/photos/milkyway-01.jpg" width="49%" alt="The Milky Way beside a silhouetted tree">
-  <img src="assets/photos/milkyway-02.jpg" width="49%" alt="The Milky Way rising over dark hills">
+<p align="center">
+  <a href="https://apod.nasa.gov/apod/ap250912.html"><img src="assets/photos/lunar-eclipse-apod.webp" width="348" alt="Lunar Eclipse in Two Hemispheres: Zhouyue Zhu's northern view above Lucy Yunxi Hu's southern view"></a>
+  <a href="assets/photos/ngc-3576.webp"><img src="assets/photos/ngc-3576.webp" width="455" alt="NGC 3576 in blue and gold, photographed in SHO narrowband"></a>
+  <br>
+  <sub>Lunar Eclipse in Two Hemispheres · NGC 3576</sub>
 </p>
 
-<img src="assets/photos/hangzhou-pano.jpg" width="100%" alt="Panoramic photograph of the Hangzhou skyline at night">
+<p align="center">
+  <a href="assets/photos/singapore-sunset.webp"><img src="assets/photos/singapore-sunset.webp" width="266" alt="Singapore's skyline at sunset, framed by diagonal bridge cables"></a>
+  <a href="assets/photos/singapore-blue-hour.webp"><img src="assets/photos/singapore-blue-hour.webp" width="266" alt="Illuminated towers and curving roads in Singapore at blue hour"></a>
+  <a href="assets/photos/jewel-waterfall.webp"><img src="assets/photos/jewel-waterfall.webp" width="266" alt="The indoor waterfall beneath the glass roof at Jewel Changi Airport"></a>
+  <br>
+  <sub>Singapore · Sunset, blue hour, and Jewel Changi Airport</sub>
+</p>
+
+<p align="center">
+  <a href="assets/photos/sunlit-stream.webp"><img src="assets/photos/sunlit-stream.webp" width="402" alt="Sunlight through willow trees above a stream and a stone bridge"></a>
+  <a href="assets/photos/seaside-twilight.webp"><img src="assets/photos/seaside-twilight.webp" width="402" alt="A seaside terrace and the remains of a pier beneath a pink twilight sky"></a>
+  <br>
+  <sub>Streamside sunlight · Seaside twilight</sub>
+</p>
+
+<p align="center">
+  <a href="assets/photos/shoreline.webp"><img src="assets/photos/shoreline.webp" width="266" alt="A quiet sandy beach with seabirds and walkers in the distance"></a>
+  <a href="assets/photos/seaside-pier.webp"><img src="assets/photos/seaside-pier.webp" width="266" alt="A small pavilion at the end of a pier over pale turquoise water"></a>
+  <a href="assets/photos/life-ring.webp"><img src="assets/photos/life-ring.webp" width="266" alt="A red life ring on a seaside railing against turquoise water"></a>
+  <br>
+  <sub>Along the coast</sub>
+</p>
 
 [More photographs](https://www.fantasticjoe.com/gallery/)
 
