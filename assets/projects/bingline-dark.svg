@@ -15,4 +15,8 @@
   <circle cx="29" cy="160" r="4.5" fill="#8EDFE8"/>
   <text x="42" y="165" font-size="13" font-weight="500" fill="#D4DAEB">Cloudflare Workers</text>
   <text x="398" y="165" text-anchor="end" class="code" font-size="12.5" fill="#BCC4DA">redirect + JSON</text>
+  <g id="project-stars" data-repository="fantasticjoe/bingline-api" transform="translate(210 151)" aria-label="0 GitHub stars">
+    <path d="m8 1 2.16 4.38 4.84.7-3.5 3.41.83 4.81L8 12.03 3.67 14.3l.83-4.81L1 6.08l4.84-.7L8 1Z" stroke="#8EDFE8" stroke-width="1.4" stroke-linejoin="round"/>
+    <text x="24" y="14" font-size="13" font-weight="500" fill="#D4DAEB">0</text>
+  </g>
 </svg>
