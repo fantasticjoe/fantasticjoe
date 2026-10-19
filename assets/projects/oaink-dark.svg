@@ -5,7 +5,7 @@
     text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .code { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; }
   </style>
-  <rect x="0.5" y="0.5" width="439" height="189" rx="6" fill="#1F222E" stroke="#34394D"/>
+  <rect x="0.5" y="0.5" width="439" height="189" rx="8.3" fill="#1F222E" stroke="#34394D"/>
   <g aria-hidden="true" stroke="#AEB8D2" stroke-width="1.5"><circle cx="31" cy="36" r="9"/><ellipse cx="31" cy="36" rx="4" ry="9"/><path d="M22 36h18"/></g>
   <text x="51" y="43" font-size="22" font-weight="600" fill="#53D6CA">0a.ink</text>
   <path d="M394 29h13v13m0-13-16 16" stroke="#53D6CA" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"/>

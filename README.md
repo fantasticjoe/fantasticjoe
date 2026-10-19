@@ -97,7 +97,7 @@ My lunar eclipse sequence was featured in [NASA's Astronomy Picture of the Day](
 <p align="center">
   <a href="profile-3d-contrib/profile-3d.svg">
     <picture>
-      <source media="(max-width: 1200px)" srcset="profile-3d-contrib/profile-3d.svg" width="384">
+      <source media="(max-width: 1200px)" srcset="profile-3d-contrib/profile-3d-compact.svg" width="384">
       <img src="profile-3d-contrib/profile-3d.svg" width="808" alt="GitHub contributions shown as a 3D calendar">
     </picture>
   </a>
