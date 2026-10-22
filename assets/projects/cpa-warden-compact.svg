@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="212" viewBox="0 0 320 212" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">cpa-warden</title>
+  <desc id="description">An interactive Python CLI for inspecting CPA auth inventories, probing usage, and maintaining accounts, with SQLite state.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <rect x="0.5" y="0.5" width="319" height="211" rx="7.5" fill="#1F222E" stroke="#34394D"/>
+  <g aria-hidden="true" stroke="#AEB8D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 27h13v18H22a2 2 0 0 1-2-2V29a2 2 0 0 1 2-2Z"/><path d="M20 41h15m-10-14v7l3-2 3 2v-7"/></g>
+  <text x="47" y="43" font-size="22" font-weight="600" fill="#53D6CA">cpa-warden</text>
+  <path d="M286 29h13v13m0-13-16 16" stroke="#53D6CA" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"/>
+  <text x="20" y="78" font-size="16" fill="#F1F3F9">Inspect CPA auth inventories</text>
+  <text x="20" y="101" font-size="16" fill="#F1F3F9">and usage. Manage accounts</text>
+  <text x="20" y="124" font-size="16" fill="#F1F3F9">from the terminal.</text>
+  <path d="M20 157h280" stroke="#34394D"/>
+  <circle cx="25" cy="185" r="4.5" fill="#8EDFE8"/>
+  <text x="38" y="190" font-size="14" font-weight="500" fill="#D4DAEB">Python · SQLite</text>
+  <g id="project-stars" data-repository="fantasticjoe/cpa-warden" transform="translate(242 176)" aria-label="190 GitHub stars">
+    <path d="m8 1 2.16 4.38 4.84.7-3.5 3.41.83 4.81L8 12.03 3.67 14.3l.83-4.81L1 6.08l4.84-.7L8 1Z" stroke="#8EDFE8" stroke-width="1.4" stroke-linejoin="round"/>
+    <text x="24" y="14" font-size="14" font-weight="500" fill="#D4DAEB">190</text>
+  </g>
+</svg>

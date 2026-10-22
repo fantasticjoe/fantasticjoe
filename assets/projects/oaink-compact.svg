@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="212" viewBox="0 0 320 212" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">0a.ink</title>
+  <desc id="description">A personal gateway for links, notes, tools, and experiments.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <rect x="0.5" y="0.5" width="319" height="211" rx="7.5" fill="#1F222E" stroke="#34394D"/>
+  <g aria-hidden="true" stroke="#AEB8D2" stroke-width="1.5"><circle cx="28" cy="36" r="9"/><ellipse cx="28" cy="36" rx="4" ry="9"/><path d="M19 36h18"/></g>
+  <text x="47" y="43" font-size="22" font-weight="600" fill="#53D6CA">0a.ink</text>
+  <path d="M286 29h13v13m0-13-16 16" stroke="#53D6CA" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"/>
+  <text x="20" y="78" font-size="16" fill="#F1F3F9">A home for my links, notes</text>
+  <text x="20" y="101" font-size="16" fill="#F1F3F9">and tools. Small experiments</text>
+  <text x="20" y="124" font-size="16" fill="#F1F3F9">live here, too.</text>
+  <path d="M20 157h280" stroke="#34394D"/>
+  <circle cx="25" cy="185" r="4.5" fill="#8EDFE8"/>
+  <text x="38" y="190" font-size="14" font-weight="500" fill="#D4DAEB">Links &amp; experiments</text>
+</svg>

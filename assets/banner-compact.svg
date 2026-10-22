@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="144" viewBox="0 0 320 144" role="img" aria-labelledby="title desc">
+  <title id="title">Joe Zhu</title>
+  <desc id="desc">Bioinformatics, code, and photography.</desc>
+  <style>
+    :root { color: #087F8C; }
+    @media (prefers-color-scheme: dark) { :root { color: #53D6CA; } }
+    text { font-family: ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+  </style>
+  <text x="160" y="62" text-anchor="middle" font-size="48" font-weight="700" letter-spacing="-1.5" fill="currentColor">Joe Zhu</text>
+  <text x="160" y="99" text-anchor="middle" font-size="16" fill="currentColor">Bioinformatics · Code</text>
+  <text x="160" y="123" text-anchor="middle" font-size="16" fill="currentColor">Photography</text>
+</svg>
