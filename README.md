@@ -12,10 +12,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.fantasticjoe.com" title="Personal website"><img src="assets/navigation/website.svg" width="72" height="58" alt="Website"></a>
-  <a href="https://blog.fantasticjoe.com" title="Personal blog"><img src="assets/navigation/blog.svg" width="72" height="58" alt="Blog"></a>
-  <a href="https://www.linkedin.com/in/zhouyuezhu/" title="Connect on LinkedIn"><img src="assets/navigation/linkedin.svg" width="72" height="58" alt="LinkedIn"></a>
-  <a href="https://orcid.org/0009-0007-9226-1417" title="ORCID researcher profile"><img src="assets/navigation/orcid.svg" width="72" height="58" alt="ORCID"></a>
+  <a href="https://www.fantasticjoe.com" title="Personal website"><picture><source media="(max-width: 600px)" srcset="assets/navigation/website-compact.svg" width="56" height="58"><img src="assets/navigation/website.svg" width="72" height="58" alt="Website"></picture></a>
+  <a href="https://blog.fantasticjoe.com" title="Personal blog"><picture><source media="(max-width: 600px)" srcset="assets/navigation/blog-compact.svg" width="56" height="58"><img src="assets/navigation/blog.svg" width="72" height="58" alt="Blog"></picture></a>
+  <a href="https://www.linkedin.com/in/zhouyuezhu/" title="Connect on LinkedIn"><picture><source media="(max-width: 600px)" srcset="assets/navigation/linkedin-compact.svg" width="56" height="58"><img src="assets/navigation/linkedin.svg" width="72" height="58" alt="LinkedIn"></picture></a>
+  <a href="https://orcid.org/0009-0007-9226-1417" title="ORCID researcher profile"><picture><source media="(max-width: 600px)" srcset="assets/navigation/orcid-compact.svg" width="56" height="58"><img src="assets/navigation/orcid.svg" width="72" height="58" alt="ORCID"></picture></a>
 </p>
 
 <details open>
@@ -102,33 +102,27 @@
 My lunar eclipse sequence was featured in [NASA's Astronomy Picture of the Day](https://apod.nasa.gov/apod/ap250912.html) on September 12, 2025. The composite pairs my northern-hemisphere view with Lucy Yunxi Hu's view from Australia.
 
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/ap250912.html"><img src="assets/photos/lunar-eclipse-apod.webp" width="348" height="463" alt="Lunar Eclipse in Two Hemispheres: Zhouyue Zhu's northern view above Lucy Yunxi Hu's southern view"></a>
-  <a href="assets/photos/ngc-3576.webp"><img src="assets/photos/ngc-3576.webp" width="455" height="463" alt="NGC 3576 in blue and gold, photographed in SHO narrowband"></a>
+  <a href="assets/photos/astronomy.webp"><img src="assets/photos/astronomy.webp" width="808" height="464" alt="Lunar Eclipse in Two Hemispheres, with Zhouyue Zhu's northern view and Lucy Yunxi Hu's southern view, beside the blue and gold NGC 3576 nebula"></a>
   <br>
-  <sub>Lunar Eclipse in Two Hemispheres · NGC 3576</sub>
+  <a href="assets/photos/lunar-eclipse-apod.webp">Lunar eclipse</a> · <a href="assets/photos/ngc-3576.webp">NGC 3576</a>
 </p>
 
 <p align="center">
-  <a href="assets/photos/singapore-sunset.webp"><img src="assets/photos/singapore-sunset.webp" width="266" height="400" alt="Singapore's skyline at sunset, framed by diagonal bridge cables"></a>
-  <a href="assets/photos/singapore-blue-hour.webp"><img src="assets/photos/singapore-blue-hour.webp" width="266" height="400" alt="Illuminated towers and curving roads in Singapore at blue hour"></a>
-  <a href="assets/photos/jewel-waterfall.webp"><img src="assets/photos/jewel-waterfall.webp" width="266" height="400" alt="The indoor waterfall beneath the glass roof at Jewel Changi Airport"></a>
+  <a href="assets/photos/singapore.webp"><img src="assets/photos/singapore.webp" width="808" height="401" alt="Three views of Singapore: the skyline at sunset, illuminated roads at blue hour, and the waterfall at Jewel Changi Airport"></a>
   <br>
-  <sub>Singapore · Sunset, blue hour, and Jewel Changi Airport</sub>
+  Singapore · <a href="assets/photos/singapore-sunset.webp">Sunset</a> · <a href="assets/photos/singapore-blue-hour.webp">Blue hour</a> · <a href="assets/photos/jewel-waterfall.webp">Jewel</a>
 </p>
 
 <p align="center">
-  <a href="assets/photos/sunlit-stream.webp"><img src="assets/photos/sunlit-stream.webp" width="402" height="268" alt="Sunlight through willow trees above a stream and a stone bridge"></a>
-  <a href="assets/photos/seaside-twilight.webp"><img src="assets/photos/seaside-twilight.webp" width="402" height="268" alt="A seaside terrace and the remains of a pier beneath a pink twilight sky"></a>
+  <a href="assets/photos/water-and-light.webp"><img src="assets/photos/water-and-light.webp" width="808" height="268" alt="Sunlight through willow trees over a stream, beside a seaside terrace and pier beneath a pink twilight sky"></a>
   <br>
-  <sub>Streamside sunlight · Seaside twilight</sub>
+  <a href="assets/photos/sunlit-stream.webp">Streamside sunlight</a> · <a href="assets/photos/seaside-twilight.webp">Seaside twilight</a>
 </p>
 
 <p align="center">
-  <a href="assets/photos/shoreline.webp"><img src="assets/photos/shoreline.webp" width="266" height="177" alt="A quiet sandy beach with seabirds and walkers in the distance"></a>
-  <a href="assets/photos/seaside-pier.webp"><img src="assets/photos/seaside-pier.webp" width="266" height="177" alt="A small pavilion at the end of a pier over pale turquoise water"></a>
-  <a href="assets/photos/life-ring.webp"><img src="assets/photos/life-ring.webp" width="266" height="177" alt="A red life ring on a seaside railing against turquoise water"></a>
+  <a href="assets/photos/coast.webp"><img src="assets/photos/coast.webp" width="808" height="178" alt="Three coastal scenes: a quiet beach, a pavilion on a pier, and a red life ring against turquoise water"></a>
   <br>
-  <sub>Along the coast</sub>
+  Along the coast · <a href="assets/photos/shoreline.webp">Shoreline</a> · <a href="assets/photos/seaside-pier.webp">Pier</a> · <a href="assets/photos/life-ring.webp">Life ring</a>
 </p>
 
 [More photographs](https://www.fantasticjoe.com/gallery/)
