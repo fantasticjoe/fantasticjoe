@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="808" height="176" viewBox="0 0 808 176" role="img" aria-labelledby="title description">
 <title id="title">Languages across my repositories</title>
-<desc id="description">Python: 39.52%; TypeScript: 20.38%; Swift: 15.94%; JavaScript: 8.38%; Jupyter Notebook: 6.56%; HTML: 2.48%; CSS: 1.62%; Other: 5.11%</desc>
+<desc id="description">Python: 38.61%; TypeScript: 21.91%; Swift: 15.45%; JavaScript: 8.36%; Jupyter Notebook: 6.35%; HTML: 2.42%; CSS: 1.87%; Other: 5.03%</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#F3F4F6}.muted{fill:#A6ACCD}</style>
 <rect width="808" height="176" rx="8" fill="#1F222E"/>
 <text x="24" y="30" font-size="14" font-weight="600" style="fill:#53D6CA">Languages</text>
 <text x="784" y="30" text-anchor="end" font-size="12" class="muted">25 languages</text>
 <defs><clipPath id="bar"><rect x="24" y="46" width="760" height="6" rx="3"/></clipPath></defs>
 <g clip-path="url(#bar)">
-<rect x="24.000" y="46" width="300.432" height="6" fill="#3572A5"/>
-<rect x="324.382" y="46" width="154.953" height="6" fill="#3178c6"/>
-<rect x="479.286" y="46" width="121.206" height="6" fill="#F05138"/>
-<rect x="600.442" y="46" width="63.744" height="6" fill="#f1e05a"/>
-<rect x="664.136" y="46" width="49.911" height="6" fill="#DA5B0B"/>
-<rect x="713.997" y="46" width="18.900" height="6" fill="#e34c26"/>
-<rect x="732.847" y="46" width="12.363" height="6" fill="#663399"/>
-<rect x="745.160" y="46" width="38.890" height="6" fill="#ededed"/>
+<rect x="24.000" y="46" width="293.486" height="6" fill="#3572A5"/>
+<rect x="317.436" y="46" width="166.566" height="6" fill="#3178c6"/>
+<rect x="483.952" y="46" width="117.470" height="6" fill="#F05138"/>
+<rect x="601.372" y="46" width="63.586" height="6" fill="#f1e05a"/>
+<rect x="664.908" y="46" width="48.310" height="6" fill="#DA5B0B"/>
+<rect x="713.168" y="46" width="18.442" height="6" fill="#e34c26"/>
+<rect x="731.560" y="46" width="14.262" height="6" fill="#663399"/>
+<rect x="745.772" y="46" width="38.278" height="6" fill="#ededed"/>
 </g>
 <circle cx="28" cy="77" r="3" fill="#3572A5"/>
 <text x="40" y="82" font-size="14">Python</text>
-<text x="388" y="82" text-anchor="end" font-size="13" class="muted">39.52%</text>
+<text x="388" y="82" text-anchor="end" font-size="13" class="muted">38.61%</text>
 <circle cx="424" cy="77" r="3" fill="#3178c6"/>
 <text x="436" y="82" font-size="14">TypeScript</text>
-<text x="784" y="82" text-anchor="end" font-size="13" class="muted">20.38%</text>
+<text x="784" y="82" text-anchor="end" font-size="13" class="muted">21.91%</text>
 <circle cx="28" cy="101" r="3" fill="#F05138"/>
 <text x="40" y="106" font-size="14">Swift</text>
-<text x="388" y="106" text-anchor="end" font-size="13" class="muted">15.94%</text>
+<text x="388" y="106" text-anchor="end" font-size="13" class="muted">15.45%</text>
 <circle cx="424" cy="101" r="3" fill="#f1e05a"/>
 <text x="436" y="106" font-size="14">JavaScript</text>
-<text x="784" y="106" text-anchor="end" font-size="13" class="muted">8.38%</text>
+<text x="784" y="106" text-anchor="end" font-size="13" class="muted">8.36%</text>
 <circle cx="28" cy="125" r="3" fill="#DA5B0B"/>
 <text x="40" y="130" font-size="14">Jupyter Notebook</text>
-<text x="388" y="130" text-anchor="end" font-size="13" class="muted">6.56%</text>
+<text x="388" y="130" text-anchor="end" font-size="13" class="muted">6.35%</text>
 <circle cx="424" cy="125" r="3" fill="#e34c26"/>
 <text x="436" y="130" font-size="14">HTML</text>
-<text x="784" y="130" text-anchor="end" font-size="13" class="muted">2.48%</text>
+<text x="784" y="130" text-anchor="end" font-size="13" class="muted">2.42%</text>
 <circle cx="28" cy="149" r="3" fill="#663399"/>
 <text x="40" y="154" font-size="14">CSS</text>
-<text x="388" y="154" text-anchor="end" font-size="13" class="muted">1.62%</text>
+<text x="388" y="154" text-anchor="end" font-size="13" class="muted">1.87%</text>
 <circle cx="424" cy="149" r="3" fill="#ededed"/>
 <text x="436" y="154" font-size="14">Other</text>
-<text x="784" y="154" text-anchor="end" font-size="13" class="muted">5.11%</text>
+<text x="784" y="154" text-anchor="end" font-size="13" class="muted">5.03%</text>
 </svg>
