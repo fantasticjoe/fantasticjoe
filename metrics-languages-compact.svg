@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="384" height="286" viewBox="0 0 384 286" role="img" aria-labelledby="title description">
 <title id="title">Languages across my repositories</title>
-<desc id="description">Python: 38.34%; TypeScript: 22.11%; Swift: 15.32%; JavaScript: 8.38%; Jupyter Notebook: 6.3%; HTML: 2.4%; CSS: 2.02%; Other: 5.13%</desc>
+<desc id="description">Python: 38.33%; TypeScript: 22.11%; Swift: 15.32%; JavaScript: 8.38%; Jupyter Notebook: 6.3%; HTML: 2.4%; CSS: 2.03%; Other: 5.13%</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#F3F4F6}.muted{fill:#A6ACCD}</style>
 <rect width="384" height="286" rx="8" fill="#1F222E"/>
 <text x="20" y="30" font-size="16" font-weight="600" style="fill:#53D6CA">Languages</text>
 <text x="364" y="30" text-anchor="end" font-size="12" class="muted">25 languages</text>
 <defs><clipPath id="bar"><rect x="20" y="46" width="344" height="6" rx="3"/></clipPath></defs>
 <g clip-path="url(#bar)">
-<rect x="20.000" y="46" width="131.940" height="6" fill="#3572A5"/>
-<rect x="151.890" y="46" width="76.108" height="6" fill="#3178c6"/>
-<rect x="227.948" y="46" width="52.751" height="6" fill="#F05138"/>
-<rect x="280.649" y="46" width="28.877" height="6" fill="#f1e05a"/>
-<rect x="309.476" y="46" width="21.722" height="6" fill="#DA5B0B"/>
-<rect x="331.148" y="46" width="8.306" height="6" fill="#e34c26"/>
-<rect x="339.404" y="46" width="6.999" height="6" fill="#663399"/>
+<rect x="20.000" y="46" width="131.905" height="6" fill="#3572A5"/>
+<rect x="151.855" y="46" width="76.108" height="6" fill="#3178c6"/>
+<rect x="227.914" y="46" width="52.751" height="6" fill="#F05138"/>
+<rect x="280.614" y="46" width="28.877" height="6" fill="#f1e05a"/>
+<rect x="309.442" y="46" width="21.722" height="6" fill="#DA5B0B"/>
+<rect x="331.114" y="46" width="8.306" height="6" fill="#e34c26"/>
+<rect x="339.370" y="46" width="7.033" height="6" fill="#663399"/>
 <rect x="346.353" y="46" width="17.697" height="6" fill="#ededed"/>
 </g>
 <circle cx="24" cy="77" r="3" fill="#3572A5"/>
 <text x="36" y="82" font-size="16">Python</text>
-<text x="364" y="82" text-anchor="end" font-size="14" class="muted">38.34%</text>
+<text x="364" y="82" text-anchor="end" font-size="14" class="muted">38.33%</text>
 <circle cx="24" cy="103" r="3" fill="#3178c6"/>
 <text x="36" y="108" font-size="16">TypeScript</text>
 <text x="364" y="108" text-anchor="end" font-size="14" class="muted">22.11%</text>
@@ -36,7 +36,7 @@
 <text x="364" y="212" text-anchor="end" font-size="14" class="muted">2.4%</text>
 <circle cx="24" cy="233" r="3" fill="#663399"/>
 <text x="36" y="238" font-size="16">CSS</text>
-<text x="364" y="238" text-anchor="end" font-size="14" class="muted">2.02%</text>
+<text x="364" y="238" text-anchor="end" font-size="14" class="muted">2.03%</text>
 <circle cx="24" cy="259" r="3" fill="#ededed"/>
 <text x="36" y="264" font-size="16">Other</text>
 <text x="364" y="264" text-anchor="end" font-size="14" class="muted">5.13%</text>
